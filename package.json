@@ -1,0 +1,32 @@
+{
+  "name": "fiduce-contracts",
+  "version": "0.0.1",
+  "description": "Smart contacts set for Fiduce.fr project",
+  "main": "index.js",
+  "scripts": {
+
+    "compile": "truffle compile",
+    "console": "truffle console",
+    "migrate": "truffle migrate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiduce/contracts.git"
+  },
+  "keywords": [
+    "Fiduce"
+  ],
+  "author": "php.laboratory@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiduce/contracts/issues"
+  },
+  "homepage": "https://github.com/fiduce/contracts#readme",
+  "devDependencies": {
+    "truffle": "^5.0.7"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.3"
+  }
+}
