@@ -19,7 +19,7 @@ contract Fiduce is ERC721Full {
 
     function createDeal(address client) public payable {
         FiduceDeal deal = new FiduceDeal();
-        deal.initialize(msg.sender, client);
+        deal.initialize(msg.sender, client, msg.sender);
         emit NewDeal(msg.sender, client);
     }
 
