@@ -7,7 +7,7 @@
     "compile": "truffle compile",
     "console": "truffle console",
     "migrate": "truffle migrate",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test"
   },
   "repository": {
     "type": "git",
